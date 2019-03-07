@@ -26,7 +26,7 @@ class YouTubeAPIWrapperTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         YouTube.video().list(part: "snippet")
             .setId(id: "HXkh7EOqcQ4")
-            .setKey(key: "AIzaSyBzMYgY2FS9cf9F9uNnlEcVM5IWKdKjKxE")
+            .setKey(key: "YOUR_API_KEY")
             .execute()
     }
     
