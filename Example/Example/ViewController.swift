@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         YouTube.video().list(part: "snippet")
             .setId(id: "HXkh7EOqcQ4")
-            .setKey(key: "AIzaSyBzMYgY2FS9cf9F9uNnlEcVM5IWKdKjKxE")
+            .setKey(key: "YOUR_API_KEY")
             .execute()
     }
 
